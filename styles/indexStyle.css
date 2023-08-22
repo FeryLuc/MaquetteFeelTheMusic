@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #2F3038;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 100vw;
+}
+section{
+    /* border: 1px solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.image{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    position: relative;
+    height: 80vh;
+    min-width: 580px;
+    background-image: url("../ressources/landing-page-girl\ 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-self: flex-end;
+    
+}
+.feelMusic{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 8px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 200;
+    margin: 0;
+}
+h2{
+    font-weight: 200;
+    font-size: 32px;
+    margin: 0;
+}
+button{
+    width: 250px;
+    height: 55px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 0, 119);
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 8px;
+    border: none;
+}

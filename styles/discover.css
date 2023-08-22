@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #2F3038;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.containerDiscover{
+    display: flex;
+    width: 80%;
+    height: 90vh;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 80px;
+   
+}
+.logoLegend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #202027;
+    margin-right: 24px;
+    margin-left: 0;
+}
+.logoLegend img{
+    width: 80px;
+    aspect-ratio: 1;
+    margin: 0 16px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 200;
+}
+.desc{
+    font-size: 30px;
+    
+}
+.imgContainerDiscover{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin-right: 32px;
+}
+.imgContainerDiscover img{
+    width: 200px;
+    aspect-ratio: 1;
+    margin: 0;
+    
+}
+.centeredImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    width: 400px;
+    aspect-ratio: 1;
+}
+.textContainer{
+    width: 40%;
+    /* border: 1px solid red; */
+}
